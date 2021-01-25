@@ -11,9 +11,7 @@ set_property (GLOBAL PROPERTY USE_FOLDERS ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 set(CMAKE_AUTOMOC ON)
-#打开全局uic，非必须
 set(CMAKE_AUTOUIC ON)
-#打开全局rcc，非必须
 set(CMAKE_AUTORCC ON)
 
 find_package(Qt5 REQUIRED 
@@ -29,6 +27,7 @@ find_package(Qt5 REQUIRED
   PrintSupport
   Sql
   Concurrent
+	LinguistTools
 )
 
 #add_subdirectory(algorithms)
