@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>assets/baseline_close_black_18dp.png</file>
+        <file>assets/baseline_minimize_black_18dp.png</file>
+        <file>assets/icons8-maximize-button-26.png</file>
+        <file>assets/icons8-restore-down-32.png</file>
+    </qresource>
+</RCC>
